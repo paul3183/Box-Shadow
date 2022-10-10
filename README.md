@@ -1,1 +1,1 @@
-box-shadow-paul-ruiz.netlify.app
+https://box-shadow-paul-ruiz.netlify.app/
