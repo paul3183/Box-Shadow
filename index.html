@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="inputs">
+      <div class="box-properties">
+        <h2>Box Properties</h2>
+        <div class="background-color">
+          <label for="color">Background-color</label>
+          <input type="color" name="color" id="color">
+        </div>
+        <div class="border-radius">
+          <label for="border-radius">Border radius</label>
+          <input type="range" name="border-radius" id="border-radius" min="0" max="100" value="0">
+        </div>
+        <div class="height">
+          <label for="height">Height</label>
+          <input type="range" name="height" id="height" min="0" max="500" value="0">
+        </div>
+        <div class="width">
+          <label for="width">Width</label>
+          <input type="range" name="width" id="width" min="0" max="500" value="0">
+        </div>
+        <div class="output"></div>
+      </div>
+      <div class="square-container">
+        <div class="square"></div>
+      </div>
+      <div class="shadow">
+        <h2>Customize Shadows</h2>
+        <div class="horizontal">
+          <label for="">Horizontal</label>
+          <input class= "input-shadow" type="range" name="horizontal" id="horizontal" min="-100" max="+100" value="0">
+        </div>
+        <div class="vertical">
+          <label for="vertical">Vertical</label>
+          <input class= "input-shadow" type="range" name="vertical" id="vertical" min="-100" max="+100" value="0">
+        </div>
+        <div class="blur">
+          <label for="blur">Blur</label>
+          <input class= "input-shadow" type="range" name="blur" id="blur" min="0" max="100" value="0">
+        </div>
+        <div class="spread">
+          <label for="spread">Spread</label>
+          <input class= "input-shadow" type="range" name="spread" id="spread" min="-100" max="+100" value="0">
+        </div>
+        <div class="shadow-color">
+          <label for="shadow-color">Shadow Color</label>
+          <input class= "input-shadow" type="color" name="shadow-color" id="shadow-color">
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./app.js"></script>
+</html>

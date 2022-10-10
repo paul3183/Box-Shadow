@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputs {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.shadow {
+  width: 30%;
+  height: 100%;
+  display: block;
+  text-align: center;
+  line-height: 3;
+  padding-top: 300px;
+}
+
+.box-properties {
+  width: 30%;
+  height: 100%;
+  display: block;
+  text-align: center;
+  line-height: 3;
+  padding-top: 300px;
+}
+
+.square-container {
+  width: 40%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.square {
+  width: 400px;
+  height: 400px;
+  background-color: #555;
+}
+.output {
+  width: 80%;
+  height: 60px;
+  border: 2px solid orange;
+  margin: auto;
+  border-radius: 5px;
+  margin-top: 200px;
+  line-height: 50px;
+  text-align: center;
+  align-items: center;
+  font-size: 14px;
+}
